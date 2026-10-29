@@ -313,6 +313,94 @@ a:hover {
   color: #ffffff;
 }
 
+/* Full-width Sections (Contact page) */
+.section-soft {
+  background-color: var(--color-bg-soft);
+  padding: 3.5rem 1.5rem;
+}
+
+.section-soft > * {
+  max-width: var(--max-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner-full {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  text-align: center;
+  padding: 3rem 1.5rem;
+}
+
+.banner-full h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.75rem;
+}
+
+.banner-full p {
+  max-width: 850px;
+  margin: 0 auto;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+/* Contact Form */
+.contact-layout {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 2.5rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 0.35rem;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  font: inherit;
+  padding: 0.65rem 0.8rem;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  margin-bottom: 1.1rem;
+  background-color: var(--color-bg-base);
+  color: var(--color-text-contrast);
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: 2px solid var(--color-accent-blue);
+  border-color: var(--color-accent-blue);
+}
+
+.contact-form .btn {
+  align-self: flex-start;
+  border-radius: 4px;
+}
+
+.contact-form .req {
+  color: #c0392b;
+}
+
+.form-note {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin-top: 0.75rem;
+}
+
+#message,
+#get-involved {
+  scroll-margin-top: 90px;
+}
+
 /* Footer */
 .site-footer {
   background-color: #0c1523;
@@ -384,5 +472,11 @@ a:hover {
   }
   .container {
     padding: 2rem 1rem;
+  }
+  .contact-layout {
+    grid-template-columns: 1fr;
+  }
+  .section-soft {
+    padding: 2.5rem 1rem;
   }
 }
