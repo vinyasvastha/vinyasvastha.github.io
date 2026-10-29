@@ -2,6 +2,16 @@
 
 Every version of the website gets an entry here, a git tag `vX.XXX` and a GitHub release.
 
+## 1.002 — 2026-10-29
+
+Home page: all three apps named in the Science & Technology card.
+
+### Changed
+- The Science & Technology focus card on Home now names every Trust app: Divyangjan Calculator, OPD Drug Directory (with sister app OPD Memory) and OPD Clinic Record. The same text is on the WordPress site.
+
+### How to test
+1. Open https://vinyasvastha.github.io and read the "Science & Technology" card under Our Core Focus Areas.
+
 ## 1.001 — 2026-10-29
 
 Contact page, two new app pages, and the same text as the WordPress site.
